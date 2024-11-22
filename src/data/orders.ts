@@ -1,3 +1,5 @@
+'use client'
+
 // data/orders.ts
 
 import { Order } from "../types/order";

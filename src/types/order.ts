@@ -1,3 +1,5 @@
+'use client'
+
 // types/quantitiesPerColor.ts
 
 export interface QuantitiesPerColor {
