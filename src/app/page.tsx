@@ -66,6 +66,14 @@ const OrdersPage = () => {
                             Ver diseño
                           </a>
                         </p>
+                        <p className="text-white">
+                          <strong>Tamaños del diseño:</strong>{" "}
+                          <p
+                            className="text-white"
+                          >
+                            {order.designSize}
+                          </p>
+                        </p>
                         <div className="mt-4">
                           <strong className="text-white">Cantidades:</strong>
                           {order.colors.map((color) => (

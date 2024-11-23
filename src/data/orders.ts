@@ -10,6 +10,7 @@ export const orders: Order[] = [
     projectName: "Camisas navideñas",
     dueDate: "8 de diciembre",
     designLink: "https://docs.google.com/document/d/your-design-link",
+    designSize:"Por definir",
     quantities: {
       Blanco: {
         sizes: {
@@ -45,16 +46,17 @@ export const orders: Order[] = [
   {
     id: 2,
     projectName: "Camisas grises",
-    dueDate: "Sin definir",
+    dueDate: "Lo antes posible",
     designLink: "https://docs.google.com/document/d/your-design-link",
+    designSize: "10x10 adelante; 30x30 atrás",
     quantities: {
       Gris: {
         sizes: {
-          S: 0,
-          M: 0,
-          L: 0,
+          M: 20,
+          L: 28,
+          XXL: 2,
         },
-        ready: false,
+        ready: true,
       }
     },
     colors: ["Gris"],

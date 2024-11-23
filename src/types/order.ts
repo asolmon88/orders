@@ -16,6 +16,7 @@ export interface Order {
   projectName: string;
   dueDate: string;
   designLink: string;
+  designSize: string;
   quantities: {
     [color: string]: QuantitiesPerColor;
   };
