@@ -47,7 +47,7 @@ export const orders: Order[] = [
     id: 2,
     projectName: "Camisas grises",
     dueDate: "Lo antes posible",
-    designLink: "https://docs.google.com/document/d/your-design-link",
+    designLink: "https://drive.google.com/drive/folders/15FU7zeXXu45nI425oKI4JsA9EHfgDA7X?usp=drive_link",
     designSize: "10x10 adelante; 30x30 atrás",
     quantities: {
       Gris: {
