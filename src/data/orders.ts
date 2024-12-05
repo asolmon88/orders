@@ -15,33 +15,33 @@ export const orders: Order[] = [
       Blanco: {
         sizes: {
           S: 2,
-          M: 4,
+          M: 5,
           L: 1,
         },
         ready: true,
       },
       Rojo: {
         sizes: {
-          S: 39,
-          M: 36,
-          L: 18,
-          XL: 3,
+          S: 63,
+          M: 70,
+          L: 31,
+          XL: 9,
         },
-        ready: false,
+        ready: true,
       },
       Verde: {
         sizes: {
-          XS: 1,
-          S: 3,
-          M: 5,
-          L: 1,
+          XS: 4,
+          S: 6,
+          M: 15,
+          L: 11,
           XL: 1
         },
         ready: true,
       },
     },
     colors: ["Blanco", "Rojo", "Verde"],
-    totalAmount: 120, // Sum of all sizes across all colors
+    totalAmount: 217, // Sum of all sizes across all colors
   },
   {
     id: 2,
